@@ -1,6 +1,99 @@
+$fontHead: 'Roboto_Condensed_Regular', Arial, sans-serif;
+$fontbody: 'Roboto_Light', sans-serif;
+$babyBlue: #1a71a9;
+$textColor: #777;
+
+
 .main-content{
-	border: 1px solid red;//for adjusting, remove after finish
 	display: flex;
 	flex-direction: column;
-	// flex: 1 500px;
+	margin-right: 10px;
+
+	.feature{
+		div{
+			position: relative;
+			margin-bottom: 5px;
+			width: 100%;
+			
+			img{
+				width: 100%;
+			}
+
+			
+			h1{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				color: #fff;
+				background-color: rgba(0,0,0,0.7);
+				width: 100%;
+				padding: 10px;
+				text-transform: uppercase;
+				font-family: $fontHead;
+
+			}
+		}
+
+		.sub-feature{
+			width: 100%;
+			display: flex;
+			div{
+				margin-right: 5px;
+				width: 50%;
+			}
+			div:last-of-type{
+				margin-right: 0;
+			}
+		}
+
+	}
+
+	.article{
+		background-color: #fff;
+		padding: 25px 20px;
+		margin-bottom: 20px;
+		h1{
+			color: $babyBlue;
+			text-transform: uppercase;
+			font-size: 2em;
+		}
+		h2{
+			margin-bottom: 20px;
+			color: $textColor;
+		}
+
+		p{	
+			margin-top: 5px;
+			margin-bottom: 10px;
+			font-family: $fontbody;
+			color: $textColor;
+		}
+
+		button{
+			float: right;
+			color: white;
+			background-color: $babyBlue;
+			border: none;
+			padding: 5px;
+			text-transform: uppercase;
+			font-weight: 700;
+			cursor: pointer;
+		}
+	}
+
+	#older-button{
+		background: url('../images/previous_btn.png');
+		width: 188px;
+		height: 21px;
+		border: none;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		cursor: pointer;
+		transition: all 0.5s;
+	}
+
+	#older-button:hover,
+	#older-button:focus{
+		background-position: 0 -21px;
+	}
 }
