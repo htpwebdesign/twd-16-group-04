@@ -6,3 +6,11 @@
 @import "_header";
 
 // overall setting
+
+$fontHead: 'Roboto_Condensed_Regular', Arial, sans-serif;
+$fontBody: 'Roboto_Light', sans-serif;
+
+body{
+	font-family: $fontBody;
+	background: url('../images/bg.jpg');
+}
