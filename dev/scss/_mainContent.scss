@@ -10,6 +10,11 @@ $textColor: #777;
 	flex-direction: column;
 	margin-right: 10px;
 
+	@media only screen and (max-width: 970px) {
+		width: 100%;
+	} 
+
+
 	h1{
 		font-family: $fontHead;
 	}
@@ -109,4 +114,5 @@ $textColor: #777;
 	#older-button:focus{
 		background-position: 0 -21px;
 	}
+
 }
