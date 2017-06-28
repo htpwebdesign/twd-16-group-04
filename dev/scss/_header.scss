@@ -60,7 +60,7 @@ header{
 			width: 760px;
 			display: flex;
 			a{	
-				flex: 0 0 calc(760px/5);
+				flex: 1 calc(760px/5);
 				text-align: center;
 				padding: 12px;
 				text-decoration: none;
