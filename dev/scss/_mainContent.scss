@@ -4,7 +4,9 @@
 	margin-right: 10px;
 
 	@media only screen and (max-width: 970px) {
-		width: 100%;
+		width: 80%;
+		margin-left: 20px;
+		margin-right: 20px;
 	} 
 
 
@@ -15,12 +17,12 @@
 	.feature{
 		div{
 			position: relative;
-			margin-bottom: 5px;
 			width: 100%;
 			cursor: pointer;
 			
 			img{
 				width: 100%;
+				display: block
 			}
 
 			h1{
@@ -32,7 +34,7 @@
 				width: 100%;
 				padding: 10px;
 				text-transform: uppercase;
-				
+				font-size: 30px;
 			}
 			
 		}
@@ -40,6 +42,7 @@
 		.sub-feature{
 			width: 100%;
 			display: flex;
+			margin-bottom: 20px;
 			div{
 				margin-right: 5px;
 				width: 50%;
@@ -47,6 +50,10 @@
 			div:last-of-type{
 				margin-right: 0;
 			}
+		}
+
+		.featureThing{
+			margin-bottom: 5px;
 		}
 
 		.featureThing:hover,
@@ -77,6 +84,7 @@
 			margin-top: 5px;
 			margin-bottom: 10px;
 			font-family: $fontbody;
+			font-weight: light;
 			color: $textColor;
 		}
 
@@ -98,7 +106,7 @@
 		height: 21px;
 		border: none;
 		margin-top: 10px;
-		margin-bottom: 30px;
+		margin-bottom: 40px;
 		cursor: pointer;
 		transition: all 0.5s;
 	}
