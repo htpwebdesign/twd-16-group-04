@@ -6,12 +6,14 @@ $fontbody: 'Roboto_Light', sans-serif;
 
 //colors
 $babyBlue: #1a71a9;
+$deepBlue: #005991;
 $textColor: #777;
 
 //media query breakpoint
 $large: 970px;
-$medium: 970px;
-$small: 970px;
+$medium: 700px;
+$small: 560px;
+$mobile: 400px;
 
 // Media Query desktop
 $desktop: "only screen and (min-width: 971px)";
