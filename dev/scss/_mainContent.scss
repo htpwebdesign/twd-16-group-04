@@ -45,10 +45,6 @@
 			}
 		}
 
-		.featureThing{
-			margin-bottom: 5px;
-		}
-
 		.featureThing:hover,
 		.featureThing:focus{
 			img{
@@ -58,6 +54,9 @@
 
 	}
 
+	#mussel img{
+			margin-bottom: 5px;
+		}
 
 	.article{
 		background-color: #fff;
@@ -92,6 +91,8 @@
 			cursor: pointer;
 		}
 	}
+
+
 
 	#older-button{
 		background: url('../images/previous_btn.png');
