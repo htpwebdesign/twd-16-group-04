@@ -8,8 +8,9 @@
 		$header.toggleClass('show-mobile-menu');
 	});
 	$window.on('resize', function(){
-
-		if($window.width() <= 560){
+		console.log($window.width());
+		let $windowWidth = $window.width();
+		if($windowWidth <= 560){
 			$('#mussel').attr('src', 'images/mussel_small.jpg');
 
 		}else{
@@ -17,7 +18,7 @@
 
 		}
 
-		if($window.width() <= 400){
+		if($windowWidth <= 400){
 			$('#logo').attr('src', 'images/small_logo.jpg');
 		}else{
 			$('#logo').attr('src', 'images/logo.png');
@@ -25,6 +26,4 @@
 	});
 
 	
-
-
 })(jQuery);

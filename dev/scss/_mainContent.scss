@@ -125,6 +125,10 @@
 	}
 }
 
+@media only screen and (max-width: $medium) {
+
+}
+
 @media only screen and (max-width: $small) {
 	.main-content{
 		.feature{
@@ -132,6 +136,11 @@
 				flex-direction: column;
 				div{
 					width: 100%;
+				}
+			}
+			div{
+				h1{
+					font-size: 1.2em;
 				}
 			}
 		}
