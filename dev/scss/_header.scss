@@ -59,31 +59,31 @@ header{
 
 }
 
-#facebook, #google, #twitter{
+.facebook, .google, .twitter{
 	width: 35px;
 	height: 35px;
 	background: url('../images/social_media_sprite.png');
 	transition: all 0.2s ease-in;
 }
-#facebook{
+.facebook{
 	background-position: 97px 0;
 }
-#google{
+.google{
 	background-position: 65px 0;
 }
-#twitter{
+.twitter{
 	background-position: 33px 0;
 }
-#facebook:hover, 
-#facebook:focus{
+.facebook:hover, 
+.facebook:focus{
 	background-position: 97px -32px;
 }
-#google:hover,
-#google:focus{
+.google:hover,
+.google:focus{
 	background-position: 65px -32px;
 }
-#twitter:hover,
-#twitter:focus{
+.twitter:hover,
+.twitter:focus{
 	background-position: 33px -32px;
 }
 
@@ -194,9 +194,9 @@ header{
 @media only screen and (max-width: $medium){
 
 	.head-container{
-		#facebook,
-		#google,
-		#twitter{
+		.facebook,
+		.google,
+		.twitter{
 			display: none;
 		}
 	}

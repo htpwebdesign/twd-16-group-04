@@ -8,7 +8,6 @@
 		$header.toggleClass('show-mobile-menu');
 	});
 	$window.on('resize', function(){
-		console.log($window.width());
 		let $windowWidth = $window.width();
 		if($windowWidth <= 560){
 			$('#mussel').attr('src', 'images/mussel_small.jpg');
